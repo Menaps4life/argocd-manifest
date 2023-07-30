@@ -23,7 +23,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: nodejs-container
-        image: ooghenekaro/nodejs:3
+        image: menaps4life/amazon-app:latest
         ports:
         - containerPort: 3000
         
